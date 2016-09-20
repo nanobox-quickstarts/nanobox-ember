@@ -1,2 +1,8 @@
 code.build:
+  # the nodejs engine provides the nodejs runtime and runs npm install during the
+  # compile phase
   engine: "nodejs"
+
+# run the application in a web component
+web.ember:
+  start: 'ember server'

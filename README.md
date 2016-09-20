@@ -24,7 +24,7 @@ nanobox dev dns add emberjs.nanobox.dev
 nanobox dev console
 
 # run the app
-/app $ ember server
+ember server
 ```
 
 Visit the app from your favorite browser at: `emberjs.nanobox.dev:8080`

@@ -1,4 +1,4 @@
-# Emberjs on Nanobox
+# Emberjs with Nanobox
 This is the companion application for the [Emberjs: Getting Started](https://guides.nanobox.io/emberjs/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run with [nanobox](https://desktop.nanobox.io/)!
 
 ## Up and Running

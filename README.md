@@ -11,11 +11,8 @@ git clone https://github.com/nanobox-quickstarts/nanobox-emberjs.git
 # cd into the emberjs app
 cd nanobox-emberjs
 
-# build runtime and compile application
-nanobox build
-
-# deploy runtime to dev environment
-nanobox dev deploy
+# start the dev environment
+nanobox dev start
 
 # add a convenient way to access your app from the browser
 nanobox dev dns add emberjs.nanobox.dev

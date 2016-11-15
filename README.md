@@ -45,4 +45,4 @@ ls
 ```
 
 #### Now What?
-For more details about running ember apps with nanobox visit [guides.nanobox.io/nodejs/ember/](https://guides.nanobox.io/nodejs/ember/)
+For more details about running ember apps with nanobox visit [guides.nanobox.io/javascript/ember/](https://guides.nanobox.io/javascript/ember/)

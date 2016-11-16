@@ -1,48 +1,53 @@
-![Ember from scratch](https://guides.nanobox.io/assets/quickstart-icons/ember.png)
+# Myapp
 
-#### Clone the repo
+This README outlines the details of collaborating on this Ember application.
+A short introduction of this app could easily go here.
 
-```bash
-# clone the code
-git clone https://github.com/nanobox-quickstarts/nanobox-ember.git
+## Prerequisites
 
-# cd into the ember app
-cd nanobox-ember
-```
+You will need the following things properly installed on your computer.
 
-#### Run the app
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
+* [Ember CLI](http://ember-cli.com/)
+* [PhantomJS](http://phantomjs.org/)
 
-```bash
-# Run ember as you would normally, with Nanobox
-nanobox run ember server
-```
+## Installation
 
-#### Check it out
+* `git clone <repository-url>` this repository
+* `cd myapp`
+* `npm install`
+* `bower install`
 
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local ember.dev
-```
+## Running / Development
 
-Visit your app -> [ember.dev:4200](http://ember.dev:4200)
+* `ember serve`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-#### Explore
+### Code Generators
 
-With Nanobox, you don't have to have anything installed on your machine to run your app:
+Make use of the many generators for code, try `ember help generate` for more details
 
-```bash
-# drop into a Nanobox console
-nanobox run
+### Running Tests
 
-# where nodejs is installed,
-node -v
+* `ember test`
+* `ember test --server`
 
-# your packages are available,
-npm list
+### Building
 
-# and your code is mounted
-ls
-```
+* `ember build` (development)
+* `ember build --environment production` (production)
 
-#### Now What?
-For more details about running ember apps with nanobox visit [guides.nanobox.io/javascript/ember/](https://guides.nanobox.io/javascript/ember/)
+### Deploying
+
+Specify what it takes to deploy your app.
+
+## Further Reading / Useful Links
+
+* [ember.js](http://emberjs.com/)
+* [ember-cli](http://ember-cli.com/)
+* Development Browser Extensions
+  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+

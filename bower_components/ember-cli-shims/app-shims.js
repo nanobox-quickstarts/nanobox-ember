@@ -134,8 +134,14 @@
       'ember-object': {
         'default': Ember.Object
       },
+      'ember-owner/get': {
+        'default': Ember.getOwner
+      },
+      'ember-owner/set': {
+        'default': Ember.setOwner
+      },
       'ember-platform': {
-        'assign':         Ember.merge,
+        'assign':         Ember.assign || Ember.merge,
         'create':         Ember.create,
         'defineProperty': Ember.platform.defineProperty,
         'hasAccessors':   Ember.platform.hasPropertyAccessors,
@@ -239,6 +245,10 @@
   function generateModule(name, values) {
     define(name, [], function() {
       'use strict';
+
+      Object.defineProperty(values, '__esModule', {
+        value: true
+      });
 
       return values;
     });

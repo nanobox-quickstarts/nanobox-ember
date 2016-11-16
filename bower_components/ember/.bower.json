@@ -1,6 +1,6 @@
 {
   "name": "ember",
-  "version": "2.8.1",
+  "version": "2.9.1",
   "license": "MIT",
   "homepage": "https://github.com/emberjs/ember.js",
   "main": [
@@ -14,13 +14,13 @@
   "dependencies": {
     "jquery": ">= 1.7.0 < 4.0.0"
   },
-  "_release": "2.8.1",
+  "_release": "2.9.1",
   "_resolution": {
     "type": "version",
-    "tag": "2.8.1",
-    "commit": "4fbcf2a21b01238186c18d8a8ba5594ade9e933a"
+    "tag": "2.9.1",
+    "commit": "263fae8e68eb4453579deb467ccaf1bfa43d6cb5"
   },
   "_source": "https://github.com/components/ember.git",
-  "_target": "~2.8.0",
+  "_target": ">=1.4",
   "_originalSource": "ember"
 }

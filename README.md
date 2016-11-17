@@ -1,53 +1,48 @@
-# Myapp
+![Ember from scratch](https://guides.nanobox.io/assets/quickstart-icons/ember.png)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### Clone the repo
 
-## Prerequisites
+```bash
+# clone the code
+git clone https://github.com/nanobox-quickstarts/nanobox-ember.git
 
-You will need the following things properly installed on your computer.
+# cd into the ember app
+cd nanobox-ember
+```
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+#### Run the app
 
-## Installation
+```bash
+# Run ember as you would normally, with Nanobox
+nanobox run ember server
+```
 
-* `git clone <repository-url>` this repository
-* `cd myapp`
-* `npm install`
-* `bower install`
+#### Check it out
 
-## Running / Development
+```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local ember.dev
+```
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Visit your app at [ember.dev:4200](http://ember.dev:4200)
 
-### Code Generators
+#### Explore
 
-Make use of the many generators for code, try `ember help generate` for more details
+With Nanobox, you don't have to have anything installed on your machine to run your app:
 
-### Running Tests
+```bash
+# drop into a Nanobox console
+nanobox run
 
-* `ember test`
-* `ember test --server`
+# where node is installed,
+node -v
 
-### Building
+# your packages are available,
+npm list
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+# and your code is mounted
+ls
+```
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+#### Now What?
+For more details about running ember apps with nanobox visit [guides.nanobox.io/nodejs/ember/](https://guides.nanobox.io/nodejs/ember/)

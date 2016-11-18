@@ -24,7 +24,7 @@ nanobox run ember server
 nanobox dns add local ember.dev
 ```
 
-Visit your app at [ember.dev:4200](http://ember.dev:4200)
+Visit your app at <a href="http://ember.dev:4200" target="\_blank">ember.dev:4200</a>
 
 #### Explore
 

@@ -2,7 +2,7 @@
 
 # Ember from scratch
 
-Run a Ember app locally, install nothing besides nanobox. 
+Run an Ember app locally, install nothing besides nanobox. 
 
 <a href="https://nanobox.io/download"><img src="https://guides.nanobox.io/assets/quickstart-icons/download.png" /></a>
 

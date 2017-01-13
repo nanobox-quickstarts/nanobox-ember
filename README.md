@@ -20,16 +20,14 @@ cd nanobox-ember
 ## Run the app
 
 ```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local ember.dev
+
 # Run ember as you would normally, with Nanobox
 nanobox run ember server
 ```
 
 ## Check it out
-
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local ember.dev
-```
 
 Visit your app at <a href="http://ember.dev:4200" target="\_blank">ember.dev:4200</a>
 
